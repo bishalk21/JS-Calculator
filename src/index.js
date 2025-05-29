@@ -8,7 +8,7 @@ const buttonsArr = Array.from(buttons);
 // console.log("Buttons Array:", buttonsArr); // array of buttons
 
 const display = document.querySelector(".display");
-console.log("Display Element:", display); // display element
+// console.log("Display Element:", display); // display element
 
 // all the elements in dom provides some methods and properties
 

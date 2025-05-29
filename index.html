@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/index.css" />
+    <!-- <link rel="stylesheet" href="./src/index.css" /> -->
     <title>Calculator App</title>
   </head>
 
   <body>
     <div class="wrapper">
+      <h1>Vanilla JS Calculator App</h1>
       <div class="calculator">
         <div class="display">0.00</div>
         <div class="btn-area">
           <div class="btn-AC">AC</div>
           <div class="btn-C">C</div>
-          <div class="btn-divid">/</div>
+          <div class="btn-divide">/</div>
           <div class="btn-multi">*</div>
 
           <div class="btn-seven">7</div>
@@ -40,6 +41,9 @@
       <div class="circle"></div>
     </div>
 
-    <script src="./src/index.js"></script>
+    <div id="root"></div>
+
+    <script src="./src/App.jsx" type="module"></script>
+    <script src="./src/index.js" type="module"></script>
   </body>
 </html>

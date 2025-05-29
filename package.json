@@ -1,0 +1,27 @@
+{
+  "name": "js-calculator",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "start": "parcel index.html",
+    "test:unit": "jest --watchAll",
+    "test:unit:coverage": "jest --coverage",
+    "test:unit:coverage:html": "jest --coverage --coverageReporters=html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react.js"
+  ],
+  "author": "bishalk21",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
