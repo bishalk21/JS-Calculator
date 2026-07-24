@@ -18,7 +18,7 @@ const displayResult = (val) => {
 const calculateResult = (expression) => {
   let result;
   try {
-    expression = expression.replace(/×/g, "*").replace(/÷/g, "/");
+    // expression = expression.replace(/\*/g, "×").replace(/\//g, "÷");
     // Function constructor is used to create a new function object.
     // It takes a string of code as an argument and returns a new function that can be called later.
     result = Function(`"use strict"; return (${expression})`)();
